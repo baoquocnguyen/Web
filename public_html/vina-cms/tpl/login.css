@@ -1,0 +1,62 @@
+@font-face{
+    font-family: "OpenSans";
+    src: url('../fonts/OpenSans.eot');
+    src: url('../fonts/OpenSans.eot?#iefix') format('embedded-opentype'),
+        url('../fonts/OpenSans.svg#OpenSans') format('svg'),
+        url('../fonts/OpenSans.woff') format('woff'),
+        url('../fonts/OpenSans.ttf') format('truetype');
+    font-weight: normal;font-style: normal;
+}
+@font-face {
+    font-family: 'vinafontregular';
+    src: url('../fonts/Roboto-Regular.eot');
+    src: url('../fonts/Roboto-Regular.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/Roboto-Regular.woff') format('woff'),
+         url('../fonts/Roboto-Regular.ttf') format('truetype');
+    font-weight: normal;font-style: normal;
+}
+html,body
+{
+	width:100%;
+	height:100%;
+    background: rgba(236,236,236,1);
+    background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    -webkit-background-size: cover;
+    font-family:'vinafontregular';
+}
+.clear{clear: both;}
+.box-form{background: rgba(255,255,255,0.8) url(../images/ban-do.png) no-repeat center center /cover;width: 360px;max-width: 100%;margin:0 auto;box-sizing: border-box;position: relative;box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);border: none;
+    -webkit-transition: all 280ms cubic-bezier(.4,0,.2,1);
+    transition: all 280ms cubic-bezier(.4,0,.2,1);
+}.box-con{background: rgba(255,255,255,0.7);padding: 24px 35px;}
+.box-table{display: table;width: 100%;height: 100%;}.box-table-cell{display: table-cell;width: 100%;height: 100%;vertical-align: middle;}
+.login_heading{text-align: center;margin-bottom: 20px;}
+.user_avatar{width: 64px;height: 64px;display: inline-block;text-align: center;border-radius: 50%;background-image: url(../images/user.png);background-repeat: no-repeat;background-color: rgba(0,0,0,.085);background-position: 50% 1px;}
+fieldset{display: block;border: none;padding: 0 10px;margin-top:10px;}
+fieldset label{display: block;font-size: 14px;color: rgba(0,0,0,0.6);text-transform:capitalize;padding:10px 0 10px 12px}
+fieldset input{border:none;display: block;border-bottom: 1px solid rgba(0,0,0,0.12);height:40px;line-height:40px;background: transparent;outline: none;padding: 0 10px;color:rgba(0,0,0,0.6)!important;width: 100%;box-sizing: border-box;box-shadow: inset 0 0 4px rgba(255,255,255,0.6);font: 400 15px/18px vinafontregular,sans-serif;}
+fieldset input::-webkit-input-placeholder{color:rgba(0,0,0,0.6);font: 400 15px/18px vinafontregular,sans-serif;}
+fieldset input::-moz-placeholder{color:rgba(0,0,0,0.6);font: 400 15px/18px vinafontregular,sans-serif;}
+fieldset input:-ms-input-placeholder{color:rgba(0,0,0,0.6);font: 400 15px/18px vinafontregular,sans-serif;}
+fieldset input:-moz-placeholder{color:rgba(0,0,0,0.6);font: 400 15px/18px vinafontregular,sans-serif;}
+.checkbox label{display: inline-block;cursor: pointer;position: relative;padding-left: 22px;margin-right: 15px;font-size: 12px;text-transform: none;color:#555;padding-top:12px;}
+.checkbox input[type=radio],
+.checkbox input[type=checkbox]{display: none;}
+.checkbox label:before{content: "";display: inline-block;width: 18px;height: 18px;margin-right: 8px;position: absolute;left: 0;bottom: auto;top:10px;border-radius: 8px;border: 2px solid rgba(0,0,0,0.6);}
+.checkbox .radio label:before{border-radius: 8px;}
+.checkbox label:before{border-radius: 3px;}
+.checkbox input[type=radio]:checked + label:before{content: "\2022";color: #2196F3;font-size: 24px;text-align: center;line-height: 8px;}
+.checkbox input[type=checkbox]:checked + label:before{content: "\2713";text-shadow: 1px 1px 1px rgba(0, 0, 0, .2);font-size: 24px;color: #2196F3;text-align: center;line-height: 8px;}
+fieldset button{margin-top:20px;width: 100%;box-sizing: border-box;height:42px;line-height: 42px;font-family:'vinafontregular';text-transform: uppercase;color:#fff;border: none;border-radius: 2px;outline: none;box-shadow: 0 1px 3px rgba(0,0,0,.12),0 1px 2px rgba(0,0,0,.24);-webkit-transition: all 280ms cubic-bezier(.4,0,.2,1);transition: all 280ms cubic-bezier(.4,0,.2,1);cursor: pointer;-webkit-appearance: none;vertical-align: middle;font: 500 14px/31px Roboto,sans-serif;background: #2196f3;}
+fieldset button:hover{box-shadow: 0 10px 20px rgba(0,0,0,.19),0 6px 6px rgba(0,0,0,.23);}
+.vinadesign{padding-top:10px;}
+.vinadesign p{padding: 4px 0;color:rgba(0,0,0,0.52);font-size: 12px;border-top: 1px solid rgba(255,255,255,0.10);text-align: center;}
+.error_text{color:red;padding: 2px 0 10px 0;text-align: center;font-size: 12px;}
+.susess_text{color:green;padding: 2px 0 10px 0;text-align: center;font-size: 12px;}
+.logo-responsive{
+    display: inline-block;
+    max-width: 100%;
+    max-height: 52px;
+}

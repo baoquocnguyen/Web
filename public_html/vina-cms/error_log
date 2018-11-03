@@ -1,0 +1,6 @@
+[07-Mar-2018 14:36:09 Asia/Ho_Chi_Minh] PHP Warning:  getimagesize(): php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /home/myphamdaes/domains/myphamdaesa.com/public_html/vina-cms/function.php on line 278
+[07-Mar-2018 14:36:09 Asia/Ho_Chi_Minh] PHP Warning:  getimagesize(http://myphamdaesa.com/uploads/03-2018/kem-lam-trang-da.jpg): failed to open stream: php_network_getaddresses: getaddrinfo failed: Temporary failure in name resolution in /home/myphamdaes/domains/myphamdaesa.com/public_html/vina-cms/function.php on line 278
+[28-Mar-2018 16:07:53 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined function get_phanquyen() in /home/baonguyend/domains/baonguyendanang.com/public_html/vina-cms/prog/member_l.php on line 1
+[20-Apr-2018 04:20:51 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined function get_phanquyen() in /home/baonguyend/domains/baonguyendanang.com/public_html/vina-cms/prog/member_l.php on line 1
+[17-May-2018 04:59:32 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined function get_phanquyen() in /home/baonguyend/domains/baonguyendanang.com/public_html/vina-cms/prog/member_l.php on line 1
+[26-Aug-2018 22:48:15 Asia/Ho_Chi_Minh] PHP Fatal error:  Call to undefined function get_phanquyen() in /home/baonguyend/domains/baonguyendanang.com/public_html/vina-cms/prog/member_l.php on line 1
